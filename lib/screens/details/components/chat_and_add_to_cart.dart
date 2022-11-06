@@ -33,7 +33,7 @@ class ChatAndAddToCart extends StatelessWidget {
           ),
           // it will cover all available spaces
           Spacer(),
-          FlatButton.icon(
+          ElevatedButton.icon(
             onPressed: () {},
             icon: SvgPicture.asset(
               "assets/icons/shopping-bag.svg",
